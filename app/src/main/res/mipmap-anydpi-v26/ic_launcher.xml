@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+LƯU Ý: Icon dùng nền xanh và vector sân cầu lông làm foreground.
+    Chưa có ic_launcher_round, thêm nếu cần cho manifest.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/primary" />
+    <foreground android:drawable="@drawable/ic_badminton_court" />
+</adaptive-icon>

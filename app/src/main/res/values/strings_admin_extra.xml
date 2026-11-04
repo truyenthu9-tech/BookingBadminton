@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="court_hidden_suffix"> (đã ẩn)</string>
+
+    <string name="invoice_view_ticket">Xem vé</string>
+    <string name="invoice_approve">Duyệt vé</string>
+    <string name="invoice_cancel">Hủy vé</string>
+    <string name="msg_invoice_approved">Đã duyệt vé</string>
+    <string name="msg_invoice_cancelled">Đã hủy vé</string>
+    <string name="msg_report_saved">Đã lưu báo cáo: %1$s</string>
+
+    <string name="court_form_add">Thêm sân</string>
+    <string name="court_form_edit">Sửa sân</string>
+    <string name="hint_court_name">Tên sân</string>
+    <string name="hint_court_location">Vị trí</string>
+    <string name="hint_court_price">Giá mỗi giờ (đ)</string>
+    <string name="hint_court_desc">Mô tả</string>
+    <string name="btn_save">Lưu</string>
+    <string name="action_edit">Sửa thông tin</string>
+    <string name="action_hide">Ẩn sân</string>
+    <string name="action_show">Hiện sân</string>
+    <string name="err_price_invalid">Giá không hợp lệ</string>
+    <string name="msg_court_saved">Đã lưu sân</string>
+    <string name="msg_court_hidden">Đã ẩn sân</string>
+    <string name="msg_court_shown">Đã hiện sân</string>
+</resources>

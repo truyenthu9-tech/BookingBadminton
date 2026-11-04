@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+LƯU Ý: Id từng mục (homeFragment, ticketHistoryFragment, matchFinderFragment,
+    accountFragment) phải trùng id destination trong navigation/nav_graph.xml.
+    Hai mục ticketHistoryFragment và accountFragment cần có Fragment tương ứng.
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_badminton_court"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/ticketHistoryFragment"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/nav_tickets" />
+    <item
+        android:id="@+id/matchFinderFragment"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/nav_community" />
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/nav_account" />
+</menu>
