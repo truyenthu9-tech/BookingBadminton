@@ -6,9 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class ApiClient {
 
     // Emulator truy cập localhost của máy tính qua 10.0.2.2
-    private static final String BASE_URL = "http://127.0.0.1:8000/api/";
-
-    private static Retrofit retrofit;
+    private static final String BASE_URL = "http://192.168.1.51:8000/api/";    private static Retrofit retrofit;
 
     private ApiClient() {
     }
