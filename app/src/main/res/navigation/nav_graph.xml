@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+LƯU Ý: Cần tạo thêm hai Fragment chưa có trong cây thư mục:
+    - com.example.myapplication.ui.ticket.TicketHistoryFragment
+    - com.example.myapplication.ui.home.AccountFragment
+    Nếu chưa tạo, app sẽ crash khi bấm hai tab này. Muốn bỏ hai tab thì xóa
+    chúng khỏi file này và khỏi res/menu/bottom_nav_menu.xml.
+    Id của các mục trong menu phải trùng id destination ở đây để BottomNavigationView
+    tự điều hướng.
+-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_courtDetail"
+            app:destination="@id/courtDetailActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ticketHistoryFragment"
+        android:name="com.example.myapplication.ui.ticket.TicketHistoryFragment"
+        android:label="@string/nav_tickets" />
+
+    <fragment
+        android:id="@+id/matchFinderFragment"
+        android:name="com.example.myapplication.ui.community.MatchFinderFragment"
+        android:label="@string/nav_community"
+        tools:layout="@layout/fragment_match_finder" />
+
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.myapplication.ui.home.AccountFragment"
+        android:label="@string/nav_account"
+        tools:layout="@layout/fragment_account" />
+
+    <activity
+        android:id="@+id/courtDetailActivity"
+        android:name="com.example.myapplication.ui.booking.CourtDetailActivity"
+        android:label="@string/court_detail_title"
+        tools:layout="@layout/activity_court_detail" />
+
+    <activity
+        android:id="@+id/paymentActivity"
+        android:name="com.example.myapplication.ui.booking.PaymentActivity"
+        android:label="@string/payment_title"
+        tools:layout="@layout/activity_payment" />
+
+    <activity
+        android:id="@+id/ticketDetailActivity"
+        android:name="com.example.myapplication.ui.ticket.TicketDetailActivity"
+        android:label="@string/ticket_title"
+        tools:layout="@layout/activity_ticket_detail" />
+
+    <activity
+        android:id="@+id/vnPayWebActivity"
+        android:name="com.example.myapplication.ui.payment.VnPayWebActivity"
+        android:label="@string/pay_vnpay_title"
+        tools:layout="@layout/activity_vnpay_web" />
+</navigation>

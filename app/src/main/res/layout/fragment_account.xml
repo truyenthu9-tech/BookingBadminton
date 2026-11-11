@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nav_account"
+            android:textColor="@color/text_primary"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@color/primary_light"
+            android:contentDescription="@string/account_change_avatar"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.MyApp.Circle"
+            tools:src="@drawable/ic_badminton_court" />
+
+        <TextView
+            android:id="@+id/btnChangeAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:text="@string/account_change_avatar"
+            android:textColor="@color/primary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Nguyễn Văn A" />
+
+        <TextView
+            android:id="@+id/tvStudentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            tools:text="Mã sinh viên / giảng viên: 2021600001" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            tools:text="a@haui.edu.vn" />
+
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            tools:text="Số điện thoại: 0912345678" />
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bg_button_primary"
+            android:text="@string/account_edit"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_button_primary"
+            android:text="@string/btn_logout"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</ScrollView>

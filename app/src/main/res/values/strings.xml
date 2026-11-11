@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Đặt sân cầu lông HaUI</string>
+
+    <!-- Điều hướng -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_tickets">Vé của tôi</string>
+    <string name="nav_community">Tìm hội chơi</string>
+    <string name="nav_account">Tài khoản</string>
+
+    <!-- Đăng nhập / Đăng ký -->
+    <string name="login_title">Đăng nhập</string>
+    <string name="err_required">Vui lòng nhập thông tin này</string>
+    <string name="login_subtitle">Dành cho sinh viên và giảng viên HaUI</string>
+    <string name="err_email_invalid">Email không hợp lệ</string>
+    <string name="err_password_short">Mật khẩu quá ngắn</string>
+    <string name="err_password_mismatch">Mật khẩu xác nhận không khớp</string>
+    <string name="msg_register_success">Đăng ký thành công</string>
+    <string name="register_title">Tạo tài khoản</string>
+    <string name="hint_full_name">Họ và tên</string>
+    <string name="hint_student_id">Mã sinh viên / giảng viên</string>
+    <string name="hint_email">Email HaUI</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_confirm_password">Nhập lại mật khẩu</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="btn_register">Đăng ký</string>
+    <string name="go_to_register">Chưa có tài khoản? Đăng ký ngay</string>
+    <string name="go_to_login">Đã có tài khoản? Đăng nhập</string>
+    <string name="price_per_slot">%1$s / ca</string>
+    <!-- Trang chủ -->
+    <string name="home_title">Danh sách sân</string>
+    <string name="home_select_date">Chọn ngày</string>
+    <string name="price_per_hour">%1$s / giờ</string>
+    <!-- Thẻ sân -->
+    <string name="cd_court_image">Hình ảnh sân</string>
+    <string name="court_status_available">Còn trống</string>
+    <string name="court_status_booked">Đã đặt</string>
+
+    <!-- Chi tiết sân -->
+    <string name="court_detail_title">Chi tiết sân</string>
+    <string name="select_slot">Chọn ca giờ</string>
+    <string name="legend_available">Trống</string>
+    <string name="legend_booked">Đã đặt</string>
+    <string name="legend_selected">Đang chọn</string>
+    <string name="btn_continue">Tiếp tục</string>
+
+    <!-- Thanh toán -->
+    <string name="payment_title">Xác nhận và thanh toán</string>
+    <string name="label_court">Sân</string>
+    <string name="label_date">Ngày</string>
+    <string name="label_slot">Ca giờ</string>
+    <string name="label_total">Tổng tiền</string>
+    <string name="btn_pay">Gửi yêu cầu thanh toán</string>
+    <string name="ticket_date_slot">%1$s - %2$s, %3$s</string>
+
+    <!-- Vé -->
+    <string name="ticket_title">Chi tiết vé</string>
+    <string name="ticket_hint">Đưa mã QR này cho nhân viên để check-in tại sân</string>
+    <string name="cd_qr_code">Mã QR check-in</string>
+    <string name="ticket_valid_until">Có hiệu lực đến</string>
+    <string name="label_booking_code">Mã đặt sân</string>
+    <string name="ticket_time_format">%1$s | %2$s</string>
+    <string name="empty_tickets">Bạn chưa có vé nào</string>
+
+    <!-- Tìm hội chơi -->
+    <string name="match_title">Tìm hội chơi</string>
+    <string name="match_create_title">Tạo bài đăng nhanh</string>
+    <string name="match_hint_content">Bạn muốn tìm đối thủ hay ghép đội? Ghi rõ trình độ, ngày giờ và sân.</string>
+    <string name="btn_post">Đăng bài</string>
+
+    <!-- Admin -->
+    <string name="admin_title">Quản trị hệ thống</string>
+    <string name="admin_manage_courts">Quản lý sân bãi</string>
+    <string name="admin_manage_courts_desc">Thêm, sửa hoặc ẩn sân</string>
+    <string name="admin_approve_invoices">Duyệt hóa đơn</string>
+    <string name="admin_pending_invoices">Hóa đơn chờ kiểm duyệt</string>
+    <string name="admin_export_report">Xuất báo cáo</string>
+
+    <!-- Trạng thái giao dịch -->
+    <string name="status_pending">Chờ kiểm duyệt</string>
+    <string name="status_success">Thành công</string>
+    <string name="status_cancelled">Đã hủy</string>
+    <string name="status_expired">Đã hết hạn</string>
+    <string name="msg_booking_success">Đặt sân thành công</string>
+
+
+    <!-- Tính năng mới -->
+    <string name="msg_export_soon">Tính năng xuất báo cáo sẽ sớm có</string>
+    <string name="cd_add_court">Thêm sân</string>
+    <string name="msg_add_court_soon">Tính năng thêm sân sẽ sớm có</string>
+    <string name="error_generic">Đã có lỗi xảy ra, vui lòng thử lại</string>
+    <string name="msg_posted">Đăng bài thành công</string>
+    <string name="btn_logout">Đăng xuất</string>
+
+    <!-- Đăng ký: số điện thoại + OTP -->
+    <string name="hint_phone">Số điện thoại</string>
+    <string name="hint_otp">Mã OTP</string>
+    <string name="btn_send_otp">Gửi mã OTP</string>
+    <string name="btn_resend_otp">Gửi lại mã</string>
+    <string name="msg_otp_sent">Đã gửi mã OTP, vui lòng kiểm tra điện thoại</string>
+    <string name="err_phone_invalid">Số điện thoại không hợp lệ</string>
+    <string name="err_otp_required">Vui lòng nhập mã OTP</string>
+
+    <!-- Tài khoản -->
+    <string name="account_edit">Sửa thông tin</string>
+    <string name="account_change_avatar">Đổi ảnh đại diện</string>
+    <string name="hint_account_phone">Số điện thoại</string>
+    <string name="hint_new_password">Mật khẩu mới (bỏ trống để giữ nguyên)</string>
+    <string name="msg_account_saved">Đã cập nhật thông tin</string>
+    <string name="msg_avatar_uploaded">Đã cập nhật ảnh đại diện</string>
+    <string name="err_avatar_pick">Không đọc được ảnh đã chọn</string>
+
+    <!-- Dashboard -->
+    <string name="admin_dashboard">Dashboard</string>
+    <string name="admin_dashboard_desc">Biểu đồ doanh thu và tỉ lệ đặt thành công</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_revenue">Doanh thu</string>
+    <string name="dashboard_court_success">Tỉ lệ đặt thành công theo sân</string>
+    <string name="stat_week">Tuần</string>
+    <string name="stat_month">Tháng</string>
+    <string name="stat_year">Năm</string>
+    <string name="dashboard_no_data">Chưa có dữ liệu</string>
+
+    <!-- Thanh toán VNPay -->
+    <string name="btn_pay_vnpay">Thanh toán VNPay</string>
+    <string name="pay_vnpay_title">Thanh toán VNPay</string>
+    <string name="cd_close">Đóng</string>
+    <string name="msg_payment_success">Thanh toán thành công</string>
+    <string name="msg_payment_failed">Thanh toán thất bại</string>
+    <string name="msg_payment_cancelled">Thanh toán bị hủy. Đơn vẫn đang chờ thanh toán.</string>
+    <string name="msg_payment_pending">Thanh toán chưa hoàn tất, vui lòng thử lại sau</string>
+    <string name="payment_status_unpaid">Chưa thanh toán</string>
+    <string name="payment_status_pending">Đang chờ thanh toán</string>
+    <string name="payment_status_paid">Đã thanh toán</string>
+    <string name="payment_status_failed">Thanh toán thất bại</string>
+    <string name="msg_vnpay_url_missing">Không nhận được đường dẫn thanh toán từ server</string>
+    <string name="btn_open_browser">Mở trình duyệt</string>
+    <string name="msg_no_browser">Máy không có trình duyệt để mở đường dẫn này</string>
+</resources>
